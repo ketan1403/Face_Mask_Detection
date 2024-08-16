@@ -3,6 +3,7 @@ from tensorflow.keras.models import load_model
 from keras.preprocessing.image import load_img , img_to_array
 import numpy as np
 from google.colab.patches import cv2_imshow
+
 model = load_model('saved_model.h5')
 img_width , img_height = 150,150
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
