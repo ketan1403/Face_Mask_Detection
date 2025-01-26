@@ -94,22 +94,3 @@ python Face Mask detection using OpenCV.py
   cv2.rectangle(color_img, (x, y), (x+w, y+h), color, 3)
   cv2.putText(color_img, class_label, org, font, fontscale, color, thickness)
   ```
-  Annotates the frame with bounding boxes and labels.
-
----
-
-## File Details
-- **Main Script**: `Face Mask detection using OpenCV.py`
-- **Pre-trained Model**: `saved_model.h5`
-- **Haar Cascade File**: `haarcascade_frontalface_default.xml`
-- **Input Video**: `video.mp4`
-
----
-
-## Notes
-- Ensure all required files are in the correct directory.
-- The code uses `cv2_imshow`, suitable for Google Colab. Modify for local execution with `cv2.imshow`.
-
----
-
-Let me know if you need any further adjustments!
