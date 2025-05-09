@@ -1,9 +1,3 @@
-# Coincent-Project-Task-2
-
-Here’s a more concise and code-specific version of the README file in a clear, professional tone suitable for documentation:
-
----
-
 # Face Mask Detection using OpenCV
 
 ## Overview
